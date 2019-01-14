@@ -1,0 +1,394 @@
+/* Exo 2 font from Google Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+/* Background pattern from Toptal Subtle Patterns */
+
+body {
+  background-image: url("https://osu.ppy.sh/images/backgrounds/page-dark.png");
+  font-family: 'Exo 2';
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.nav-item {
+  font-size: 12px;
+}
+
+.nav-item:hover {
+  color: #f6a !important;
+}
+
+/* Background pattern from Toptal Subtle Patterns */
+
+.page-footer {
+  background-image: url("https://osu.ppy.sh/images/backgrounds/page-000.png");
+  vertical-align: center;
+}
+
+.dev-btn {
+  background-color: #36454f !important;
+  /* height: 75px; */
+  border-radius: 6px;
+  align-items: center;
+  text-align: center;
+  text-transform: none;
+}
+
+.blog {
+  vertical-align: middle;
+  text-align: center;
+  height: 65px;
+  width: 200px;
+}
+
+.footer-copyright {
+  background-color: transparent !important;
+}
+
+.back-btn {
+  background-color: #ef6da7 !important;
+}
+
+.fa {
+  font-size: 25px;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  margin: 0 5px;
+  font-size: 18px;
+  padding-top: 3px;
+}
+
+.fab {
+  font-size: 25px;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  margin: 0 5px;
+  font-size: 18px;
+  padding-top: 3px;
+}
+
+.fas {
+  font-size: 25px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  margin: 0 5px;
+  font-size: 18px;
+  padding-top: 3px;
+}
+
+.heart:hover {
+  color: #f6a;
+}
+
+.twitter:hover {
+  color: #1da1f2;
+}
+
+.facebook:hover {
+  color: #3b5998;
+}
+
+.socialIcon-container {
+  margin-bottom: 20px;
+}
+
+nav {
+  box-shadow: none;
+}
+
+nav ul a:hover {
+  background-color: transparent;
+}
+
+.footer-header {
+  font-size: 13px;
+}
+
+.footer-link {
+  font-size: 12px;
+}
+
+.footer-link:hover {
+  color: #f6a !important;
+}
+
+.osu-video {
+  height: 466px;
+  margin-bottom: 20px;
+  filter: grayscale(60%);
+}
+
+.pippi {
+  transform: translateZ(0);
+    position: absolute;
+    top: 0px;
+    bottom: 1px;
+    margin-left: 50px;
+    height: 466px;
+    width: calc(100% - 50px);
+    max-width: 328px;
+    background-size: contain;
+    background-image: url(/images/layout/pippi.png);
+}
+
+.hero-players {
+  text-align: right;
+  text-shadow: 0 1px 3px rgba(0,0,0,.75);
+  font-size: 12px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding: 30px 200px;
+}
+
+.hero-container {
+  position: relative;
+  height: 490px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.main-slogan {
+  text-align: right;
+  text-shadow: 0 1px 3px rgba(0,0,0,.75);
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+  width: 100%;
+  padding: 0px 200px;
+  bottom: 280px;
+  font-style: italic;
+}
+
+.tagline {
+  text-align: right;
+  text-shadow: 0 1px 3px rgba(0,0,0,.75);
+  font-size: 12px;
+  color: #f9c;
+  position: relative;
+  width: 100%;
+  padding: 0px 200px;
+  bottom: 280px;
+}
+
+.download-btn {
+  background-image: url(" https://osu.ppy.sh/images/backgrounds/buttonblue@2x.png");
+  background-position: calc(50% - 10px) 50%;
+  position: relative;
+  width: 180px;
+  padding: 0px 0px;
+  bottom: 260px;
+  left: 265px;
+  transition: background-position .12s;
+  text-transform: none;
+  font-style: italic;
+  border-radius: 6px;
+}
+
+.download-btn:hover {
+  background-position: calc(50% - 20px) 50%;
+}
+
+.language-icon {
+  width: 20px;
+  margin-bottom: 2px;
+  vertical-align:middle;
+  margin-right: 5px;
+}
+
+.footer-column {
+  text-align: left;
+}
+
+.toast {
+  background-color: #ef6da7;
+}
+
+@media only screen and (min-width: 1801px) {
+  .hero-players {
+    padding: 30px 275px;
+  }
+
+  .main-slogan {
+    padding: 0px 275px;
+  }
+  
+  .tagline {
+    padding: 0px 275px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .hero-players {
+    padding: 30px 285px;
+  }
+
+  .main-slogan {
+    padding: 0px 285px;
+  }
+  
+  .tagline {
+    padding: 0px 285px;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .hero-players {
+    padding: 30px 240px;
+  }
+
+  .main-slogan {
+    padding: 0px 240px;
+  }
+  
+  .tagline {
+    padding: 0px 240px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .hero-players {
+    padding: 30px 200px;
+  }
+
+  .main-slogan {
+    padding: 0px 200px;
+  }
+  
+  .tagline {
+    padding: 0px 200px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .hero-players {
+    padding: 30px 125px;
+  }
+
+  .main-slogan {
+    padding: 0px 125px;
+  }
+  
+  .tagline {
+    padding: 0px 125px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .hero-players {
+    padding: 30px 125px;
+  }
+
+  .main-slogan {
+    padding: 0px 125px;
+  }
+  
+  .tagline {
+    padding: 0px 125px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .hero-players {
+    padding: 30px 75px;
+  }
+
+  .main-slogan {
+    padding: 0px 75px;
+  }
+  
+  .tagline {
+    padding: 0px 75px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-players {
+    padding: 30px 65px;
+  }
+
+  .main-slogan {
+    padding: 0px 65px;
+  }
+  
+  .tagline {
+    padding: 0px 65px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .hero-players {
+    padding: 30px 35px;
+  }
+
+  .main-slogan {
+    padding: 0px 35px;
+  }
+  
+  .tagline {
+    padding: 0px 35px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .hero-players {
+    padding: 30px 65px;
+  }
+
+  .main-slogan {
+    padding: 0px 65px;
+  }
+  
+  .tagline {
+    padding: 0px 65px;
+  }
+}
+
+.ppy {
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+.carousel.carousel-slider .carousel-fixed-item {
+    bottom: 60px;
+}
+
+.first {
+    background-image: url('https://i.imgur.com/SwLUxwP.png');
+    background-size: cover;
+  	
+}
+
+.second {
+    background-image: url('https://i.imgur.com/ttjuUId.png');
+    background-size: cover;
+    
+}
+
+
+
+#four {
+	background-image: url('https://i.imgur.com/cfUihGQ.png');
+	background-size: cover;
+}
+
+
+#five {
+	background-image: url('https://i.imgur.com/VLQFXD5.png');
+	background-size: cover;
+}

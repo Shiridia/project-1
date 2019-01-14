@@ -1,0 +1,13 @@
+head {
+    padding-top: 100px;
+}
+
+body {
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+h3 {
+    color: red;
+}

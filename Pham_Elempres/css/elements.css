@@ -1,0 +1,22 @@
+.definition {
+    margin: 0 auto;
+    font-size: 20px;
+    width: 700px;
+}
+
+.codeSnippet {
+    width: 100%;
+}
+
+.icon-btn {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.attribute {
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 20px;
+}
